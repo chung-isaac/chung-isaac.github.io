@@ -1,0 +1,53 @@
+/* ADD ANY LINES OF CODE YOU DEEM NECESSARY FOR QUESTION 1*/
+
+.button {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background: black;
+    margin: 12px;
+    cursor: pointer;
+    opacity: 0.7;
+    animation: spinBack 0.45s ease-in;
+}
+
+.button:hover {
+    animation: spin 0.45s ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(180deg);
+        opacity: 1;
+        border-radius: 50%;
+    }
+}
+
+@keyframes spinBack {
+    from {
+        transform: rotate(180deg);
+        opacity: 1;
+        border-radius: 50%;
+    } to {
+        transform: rotate(0deg);
+        opacity: 0.7;
+        border-radius: 0%;
+    }
+}
+
+#row {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body, html {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    background: #f7f5f2;
+    position: relative;
+}
