@@ -1,6 +1,61 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-    <body>
-        FINAL
-    </body>
+
+<head>
+  <title>Isaac Chung - Unemployed Guy</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+  
+    
+  <div class="container" id="homepage">
+    <img id="homepage-img" src="assets/img/hello im isaac.png">
+    <a href="about.html" class="btn">About Me</a>
+  </div>
+
+  <div class="container" id="projects">
+    <img id="homepage-img" src="assets/img/projects.png">
+  </div>
+  
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var image = document.getElementById('homepage-img');
+      var images = ['assets/img/hello im isaac.png', 'assets/img/hello im isaac v2.png', 'assets/img/hello im isaac v3.png', 'assets/img/hello im isaac v4.png', 'assets/img/hello im isaac v5.png', 'assets/img/hello im isaac v6.png', 'assets/img/hello im isaac.png'];
+      var currentIndex = 0;
+      var interval;
+      var timeout;
+      var cycleDelay = 1727;
+
+      function changeImage() {
+        if (currentIndex >= images.length) {
+            currentIndex = 0;
+            clearInterval(interval);
+            timeout = setTimeout(startCycle, cycleDelay);
+        } else {
+            image.src = images[currentIndex++];
+        }
+      }
+
+      function startCycle() {
+        clearInterval(interval);
+        clearTimeout(timeout);
+        interval = setInterval(changeImage, 127);
+      }
+
+      image.onmouseover = function() {
+        startCycle();
+      };
+
+      image.onmouseout = function() {
+        clearInterval(interval);
+        clearTimeout(timeout);
+        image.src = 'assets/img/hello im isaac.png';
+        currentIndex = 0;
+      };
+    });
+  </script>
+  
+</body>
+
 </html>
