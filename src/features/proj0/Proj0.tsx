@@ -40,7 +40,7 @@ export default function Proj0() {
                 a camera I borrowed from my dad.
             </p>
 
-            <div className="my-8 h-px w-full bg-white" />
+            <div className="my-8 h-px w-full bg-current" />
 
             <h2 className="text-2xl font-semibold">
                 Selfie
@@ -67,7 +67,7 @@ export default function Proj0() {
                 </div>
             </div>
 
-            <div className="my-8 h-px w-full bg-white" />
+            <div className="my-8 h-px w-full bg-current" />
 
             <h2 className="text-2xl font-semibold">
                 Perspective
@@ -82,7 +82,7 @@ export default function Proj0() {
                 (Click the image!)
             </p>
 
-            <div className="my-8 h-px w-full bg-white" />
+            <div className="my-8 h-px w-full bg-current" />
 
             <h2 className="text-2xl font-semibold">
                 The Dolly Zoom
