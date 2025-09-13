@@ -1,0 +1,211 @@
+[
+  {
+    "image": "sunset",
+    "G_offset": [
+      32,
+      -32
+    ],
+    "R_offset": [
+      80,
+      -64
+    ]
+  },
+  {
+    "image": "cheremukha",
+    "G_offset": [
+      -32,
+      -96
+    ],
+    "R_offset": [
+      16,
+      -80
+    ]
+  },
+  {
+    "image": "moscow_river",
+    "G_offset": [
+      48,
+      -32
+    ],
+    "R_offset": [
+      112,
+      -48
+    ]
+  },
+  {
+    "image": "girvas_waterfall",
+    "G_offset": [
+      16,
+      0
+    ],
+    "R_offset": [
+      80,
+      -16
+    ]
+  },
+  {
+    "image": "estate",
+    "G_offset": [
+      64,
+      -16
+    ],
+    "R_offset": [
+      128,
+      -32
+    ]
+  },
+  {
+    "image": "monastery",
+    "G_offset": [
+      -3,
+      2
+    ],
+    "R_offset": [
+      3,
+      2
+    ]
+  },
+  {
+    "image": "italil",
+    "G_offset": [
+      32,
+      16
+    ],
+    "R_offset": [
+      80,
+      32
+    ]
+  },
+  {
+    "image": "lugano",
+    "G_offset": [
+      48,
+      -16
+    ],
+    "R_offset": [
+      96,
+      -32
+    ]
+  },
+  {
+    "image": "melons",
+    "G_offset": [
+      80,
+      0
+    ],
+    "R_offset": [
+      176,
+      16
+    ]
+  },
+  {
+    "image": "self_portrait",
+    "G_offset": [
+      80,
+      32
+    ],
+    "R_offset": [
+      176,
+      32
+    ]
+  },
+  {
+    "image": "church",
+    "G_offset": [
+      16,
+      -16
+    ],
+    "R_offset": [
+      64,
+      -16
+    ]
+  },
+  {
+    "image": "tobolsk",
+    "G_offset": [
+      3,
+      2
+    ],
+    "R_offset": [
+      6,
+      3
+    ]
+  },
+  {
+    "image": "emir",
+    "G_offset": [
+      48,
+      32
+    ],
+    "R_offset": [
+      96,
+      64
+    ]
+  },
+  {
+    "image": "harvesters",
+    "G_offset": [
+      64,
+      16
+    ],
+    "R_offset": [
+      128,
+      16
+    ]
+  },
+  {
+    "image": "three_generations",
+    "G_offset": [
+      48,
+      16
+    ],
+    "R_offset": [
+      112,
+      16
+    ]
+  },
+  {
+    "image": "icon",
+    "G_offset": [
+      48,
+      16
+    ],
+    "R_offset": [
+      96,
+      16
+    ]
+  },
+  {
+    "image": "cathedral",
+    "G_offset": [
+      5,
+      2
+    ],
+    "R_offset": [
+      12,
+      3
+    ]
+  },
+  {
+    "image": "lastochikino",
+    "G_offset": [
+      0,
+      0
+    ],
+    "R_offset": [
+      80,
+      -16
+    ]
+  },
+  {
+    "image": "siren",
+    "G_offset": [
+      48,
+      -16
+    ],
+    "R_offset": [
+      96,
+      -32
+    ]
+  }
+]
