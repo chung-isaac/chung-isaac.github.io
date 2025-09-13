@@ -1,5 +1,3 @@
-import { useState, useEffect } from "react";
-
 import cathedral from "./assets/cathedral_custom_chungi_color_12.jpg";
 import cheremukha from "./assets/cheremukha_custom_chungi_color_12.jpg";
 import church from "./assets/church_custom_chungi_color_12.jpg";
