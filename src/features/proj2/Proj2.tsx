@@ -1,5 +1,50 @@
 import CodeBlock from "../../components/CodeBlock";
 
+import two_loop_isaac from "./assets/2-loop isaac.png";
+import four_loop_isaac from "./assets/4-loop isaac.png";
+import airpod_hybrid from "./assets/airpod hybrid.png";
+import airpod_low from "./assets/airpod low.png";
+import airpod from "./assets/airpod.png";
+import bottle_hybrid from "./assets/bottle hybrid.png";
+import bottle from "./assets/bottle.png";
+import bowser from "./assets/bowser.png";
+import cameraman_binarized from "./assets/cameraman binarized.png";
+import cameraman_blur_edges from "./assets/cameraman blur edges.png";
+import cameraman_blur from "./assets/cameraman blur.png";
+import cameraman_Dx from "./assets/cameraman Dx.png";
+import cameraman_Dy from "./assets/cameraman Dy.png";
+import cameraman_final_DoG from "./assets/cameraman final DoG.png";
+import cameraman_final from "./assets/cameraman final.png";
+import cameraman_gradient from "./assets/cameraman gradient.png";
+import cameraman from "./assets/cameraman.png";
+import cat_hybrid from "./assets/cat hybrid.png";
+import cat from "./assets/cat.png";
+import convolve2d_isaac from "./assets/convolve2d isaac.png";
+import DoG_Dx from "./assets/DoG Dx.png";
+import DoG_Dy from "./assets/DoG Dy.png";
+import Dx_isaac from "./assets/Dx isaac.png";
+import Dy_isaac from "./assets/Dy isaac.png";
+import fouriers from "./assets/fouriers.png";
+import futball from "./assets/futball.png";
+import guy from "./assets/guy.png";
+import one_piece_blur from "./assets/one piece blur.png";
+import one_piece_high from "./assets/one piece high.png";
+import one_piece_sharp from "./assets/one piece sharp.png";
+import one_piece from "./assets/one piece.png";
+import oraple from "./assets/oraple.png";
+import original_isaac from "./assets/original isaac.png";
+import peashooter_high from "./assets/peashooter high.png";
+import peashooter from "./assets/peashooter.png";
+import sharpened_images from "./assets/sharpened images.png";
+import shoes from "./assets/shoes.png";
+import taj_blur from "./assets/taj blur.png";
+import taj_high from "./assets/taj high.png";
+import taj_sharp from "./assets/taj sharp.png";
+import taj from "./assets/taj.png";
+import tower from "./assets/tower.png";
+
+
+
 export default function Proj2() {
     return (
         <main className="flex flex-col items-center gap-8">
@@ -86,25 +131,25 @@ def naive_convolve(image, kernel):
 
             <div className="flex justify-center gap-4">
                 <div className="flex flex-col items-center gap-4 max-w-lg">
-                    <img src={'src/features/proj2/assets/original isaac.png'} className="w-full h-auto" />
+                    <img src={original_isaac} className="w-full h-auto" />
                     <p className="italic">
                         Original
                     </p>
                 </div>
                 <div className="flex flex-col items-center gap-4 max-w-lg">
-                    <img src={'src/features/proj2/assets/4-loop isaac.png'} className="w-full h-auto" />
+                    <img src={four_loop_isaac} className="w-full h-auto" />
                     <p className="italic">
                         4-loop Convolution
                     </p>
                 </div>
                 <div className="flex flex-col items-center gap-4 max-w-lg">
-                    <img src={'src/features/proj2/assets/2-loop isaac.png'} className="w-full h-auto" />
+                    <img src={two_loop_isaac} className="w-full h-auto" />
                     <p className="italic">
                         2-loop Convolution
                     </p>
                 </div>
                 <div className="flex flex-col items-center gap-4 max-w-lg">
-                    <img src={'src/features/proj2/assets/convolve2d isaac.png'} className="w-full h-auto" />
+                    <img src={convolve2d_isaac} className="w-full h-auto" />
                     <p className="italic">
                         scipy's convolve2d
                     </p>
@@ -123,13 +168,13 @@ def naive_convolve(image, kernel):
 
             <div className="flex justify-center gap-4">
                 <div className="flex flex-col items-center gap-4 max-w-lg">
-                    <img src={'src/features/proj2/assets/Dx isaac.png'} className="w-full h-auto" />
+                    <img src={Dx_isaac} className="w-full h-auto" />
                     <p className="italic">
                         Dx
                     </p>
                 </div>
                 <div className="flex flex-col items-center gap-4 max-w-lg">
-                    <img src={'src/features/proj2/assets/Dy isaac.png'} className="w-full h-auto" />
+                    <img src={Dy_isaac} className="w-full h-auto" />
                     <p className="italic">
                         Dy
                     </p>
@@ -148,25 +193,25 @@ def naive_convolve(image, kernel):
 
             <div className="flex justify-center gap-4">
                 <div className="flex flex-col items-center gap-4 max-w-lg">
-                    <img src={'src/features/proj2/assets/cameraman.png'} className="w-full h-auto" />
+                    <img src={cameraman} className="w-full h-auto" />
                     <p className="italic">
                         Original
                     </p>
                 </div>
                 <div className="flex flex-col items-center gap-4 max-w-lg">
-                    <img src={'src/features/proj2/assets/cameraman Dx.png'} className="w-full h-auto" />
+                    <img src={cameraman_Dx} className="w-full h-auto" />
                     <p className="italic">
                         Dx
                     </p>
                 </div>
                 <div className="flex flex-col items-center gap-4 max-w-lg">
-                    <img src={'src/features/proj2/assets/cameraman Dy.png'} className="w-full h-auto" />
+                    <img src={cameraman_Dy} className="w-full h-auto" />
                     <p className="italic">
                         Dy
                     </p>
                 </div>
                 <div className="flex flex-col items-center gap-4 max-w-lg">
-                    <img src={'src/features/proj2/assets/cameraman gradient.png'} className="w-full h-auto" />
+                    <img src={cameraman_gradient} className="w-full h-auto" />
                     <p className="italic">
                         Gradient Magnitude
                     </p>
@@ -179,7 +224,7 @@ def naive_convolve(image, kernel):
 
             <div className="flex justify-center gap-4">
                 <div className="flex flex-col items-center gap-4 max-w-lg">
-                    <img src={'src/features/proj2/assets/cameraman binarized.png'} className="w-full h-auto" />
+                    <img src={cameraman_binarized} className="w-full h-auto" />
                 </div>
             </div>
 
@@ -199,19 +244,19 @@ def naive_convolve(image, kernel):
 
             <div className="flex justify-center gap-4">
                 <div className="flex flex-col items-center gap-4 max-w-lg">
-                    <img src={'src/features/proj2/assets/cameraman blur.png'} className="w-full h-auto" />
+                    <img src={cameraman_blur} className="w-full h-auto" />
                     <p className="italic">
                         Blurred
                     </p>
                 </div>
                 <div className="flex flex-col items-center gap-4 max-w-lg">
-                    <img src={'src/features/proj2/assets/cameraman blur edges.png'} className="w-full h-auto" />
+                    <img src={cameraman_blur_edges} className="w-full h-auto" />
                     <p className="italic">
                         Blurred Gradient Magnitude
                     </p>
                 </div>
                 <div className="flex flex-col items-center gap-4 max-w-lg">
-                    <img src={'src/features/proj2/assets/cameraman final.png'} className="w-full h-auto" />
+                    <img src={cameraman_final} className="w-full h-auto" />
                     <p className="italic">
                         New Binarized Edges (with a threshold of 0.1)
                     </p>
@@ -229,13 +274,13 @@ def naive_convolve(image, kernel):
 
             <div className="flex justify-center gap-4">
                 <div className="flex flex-col items-center gap-4 max-w-lg">
-                    <img src={'src/features/proj2/assets/DoG Dx.png'} className="w-full h-auto" />
+                    <img src={DoG_Dx} className="w-full h-auto" />
                     <p className="italic">
                         Dx
                     </p>
                 </div>
                 <div className="flex flex-col items-center gap-4 max-w-lg">
-                    <img src={'src/features/proj2/assets/DoG Dy.png'} className="w-full h-auto" />
+                    <img src={DoG_Dy} className="w-full h-auto" />
                     <p className="italic">
                         Dy
                     </p>
@@ -248,13 +293,13 @@ def naive_convolve(image, kernel):
 
             <div className="flex justify-center gap-4">
                 <div className="flex flex-col items-center gap-4 max-w-lg">
-                    <img src={'src/features/proj2/assets/cameraman final.png'} className="w-full h-auto" />
+                    <img src={cameraman_final} className="w-full h-auto" />
                     <p className="italic">
                         Original Result using 2 Convolutions (threshold 0.15)
                     </p>
                 </div>
                 <div className="flex flex-col items-center gap-4 max-w-lg">
-                    <img src={'src/features/proj2/assets/cameraman final DoG.png'} className="w-full h-auto" />
+                    <img src={cameraman_final_DoG} className="w-full h-auto" />
                     <p className="italic">
                         Result using DoG (threshold 0.3)
                     </p>
@@ -284,25 +329,25 @@ def naive_convolve(image, kernel):
 
             <div className="flex justify-center gap-4">
                 <div className="flex flex-col items-center gap-4 max-w-lg">
-                    <img src={'src/features/proj2/assets/taj.png'} className="w-full h-auto" />
+                    <img src={taj} className="w-full h-auto" />
                     <p className="italic">
                         Original
                     </p>
                 </div>
                 <div className="flex flex-col items-center gap-4 max-w-lg">
-                    <img src={'src/features/proj2/assets/taj blur.png'} className="w-full h-auto" />
+                    <img src={taj_blur} className="w-full h-auto" />
                     <p className="italic">
                         Blurred
                     </p>
                 </div>
                 <div className="flex flex-col items-center gap-4 max-w-lg">
-                    <img src={'src/features/proj2/assets/taj high.png'} className="w-full h-auto" />
+                    <img src={taj_high} className="w-full h-auto" />
                     <p className="italic">
                         High Frequencies
                     </p>
                 </div>
                 <div className="flex flex-col items-center gap-4 max-w-lg">
-                    <img src={'src/features/proj2/assets/taj sharp.png'} className="w-full h-auto" />
+                    <img src={taj_sharp} className="w-full h-auto" />
                     <p className="italic">
                         Sharpened
                     </p>
@@ -315,25 +360,25 @@ def naive_convolve(image, kernel):
 
             <div className="flex justify-center gap-4">
                 <div className="flex flex-col items-center gap-4 max-w-lg">
-                    <img src={'src/features/proj2/assets/one piece.png'} className="w-full h-auto" />
+                    <img src={one_piece} className="w-full h-auto" />
                     <p className="italic">
                         Original
                     </p>
                 </div>
                 <div className="flex flex-col items-center gap-4 max-w-lg">
-                    <img src={'src/features/proj2/assets/one piece blur.png'} className="w-full h-auto" />
+                    <img src={one_piece_blur} className="w-full h-auto" />
                     <p className="italic">
                         Blurred
                     </p>
                 </div>
                 <div className="flex flex-col items-center gap-4 max-w-lg">
-                    <img src={'src/features/proj2/assets/one piece high.png'} className="w-full h-auto" />
+                    <img src={one_piece_high} className="w-full h-auto" />
                     <p className="italic">
                         High Frequencies
                     </p>
                 </div>
                 <div className="flex flex-col items-center gap-4 max-w-lg">
-                    <img src={'src/features/proj2/assets/one piece sharp.png'} className="w-full h-auto" />
+                    <img src={one_piece_sharp} className="w-full h-auto" />
                     <p className="italic">
                         Sharpened
                     </p>
@@ -345,7 +390,7 @@ def naive_convolve(image, kernel):
             </p>
 
             <div className="flex justify-center gap-4">
-                <img src={'src/features/proj2/assets/sharpened images.png'} className="w-full h-auto" />
+                <img src={sharpened_images} className="w-full h-auto" />
             </div>
 
             <p>
@@ -360,7 +405,7 @@ def naive_convolve(image, kernel):
             </p>
 
             <div className="flex justify-center gap-4">
-                <img src={'src/features/proj2/assets/bowser.png'} className="w-full h-auto" />
+                <img src={bowser} className="w-full h-auto" />
             </div>
 
             <p>
@@ -380,19 +425,19 @@ def naive_convolve(image, kernel):
 
             <div className="flex justify-center gap-4">
                 <div className="flex flex-col items-center gap-4 max-w-lg">
-                    <img src={'src/features/proj2/assets/guy.png'} className="w-full h-auto" />
+                    <img src={guy} className="w-full h-auto" />
                     <p className="italic">
                         Low Frequencies of Derek
                     </p>
                 </div>
                 <div className="flex flex-col items-center gap-4 max-w-lg">
-                    <img src={'src/features/proj2/assets/cat.png'} className="w-full h-auto" />
+                    <img src={cat} className="w-full h-auto" />
                     <p className="italic">
                         High Frequencies of Nutmeg!!! I like cats :)
                     </p>
                 </div>
                 <div className="flex flex-col items-center gap-4 max-w-lg">
-                    <img src={'src/features/proj2/assets/cat hybrid.png'} className="w-full h-auto" />
+                    <img src={cat_hybrid} className="w-full h-auto" />
                     <p className="italic">
                         Hybrid
                     </p>
@@ -410,19 +455,19 @@ def naive_convolve(image, kernel):
 
             <div className="flex justify-center gap-4">
                 <div className="flex flex-col items-center gap-4 max-w-lg">
-                    <img src={'src/features/proj2/assets/bottle.png'} className="w-full h-auto" />
+                    <img src={bottle} className="w-full h-auto" />
                     <p className="italic">
                         Bottle
                     </p>
                 </div>
                 <div className="flex flex-col items-center gap-4 max-w-lg">
-                    <img src={'src/features/proj2/assets/tower.png'} className="w-full h-auto" />
+                    <img src={tower} className="w-full h-auto" />
                     <p className="italic">
                         Tower
                     </p>
                 </div>
                 <div className="flex flex-col items-center gap-4 max-w-lg">
-                    <img src={'src/features/proj2/assets/bottle hybrid.png'} className="w-full h-auto" />
+                    <img src={bottle_hybrid} className="w-full h-auto" />
                     <p className="italic">
                         Hybrid
                     </p>
@@ -439,19 +484,19 @@ def naive_convolve(image, kernel):
 
             <div className="flex justify-center gap-4">
                 <div className="flex flex-col items-center gap-4 max-w-lg">
-                    <img src={'src/features/proj2/assets/airpod.png'} className="w-full h-auto" />
+                    <img src={airpod} className="w-full h-auto" />
                     <p className="italic">
                         Airpod
                     </p>
                 </div>
                 <div className="flex flex-col items-center gap-4 max-w-lg">
-                    <img src={'src/features/proj2/assets/peashooter.png'} className="w-full h-auto" />
+                    <img src={peashooter} className="w-full h-auto" />
                     <p className="italic">
                         Peashooter
                     </p>
                 </div>
                 <div className="flex flex-col items-center gap-4 max-w-lg">
-                    <img src={'src/features/proj2/assets/airpod hybrid.png'} className="w-full h-auto" />
+                    <img src={airpod_hybrid} className="w-full h-auto" />
                     <p className="italic">
                         Hybrid
                     </p>
@@ -463,7 +508,7 @@ def naive_convolve(image, kernel):
             </p>
 
             <div className="flex justify-center gap-4">
-                <img src={'src/features/proj2/assets/fouriers.png'} className="w-full h-auto" />
+                <img src={fouriers} className="w-full h-auto" />
             </div>
 
             <p>
@@ -472,13 +517,13 @@ def naive_convolve(image, kernel):
 
             <div className="flex justify-center gap-4">
                 <div className="flex flex-col items-center gap-4 max-w-lg">
-                    <img src={'src/features/proj2/assets/airpod low.png'} className="w-full h-auto" />
+                    <img src={airpod_low} className="w-full h-auto" />
                     <p className="italic">
                         Airpod
                     </p>
                 </div>
                 <div className="flex flex-col items-center gap-4 max-w-lg">
-                    <img src={'src/features/proj2/assets/peashooter high.png'} className="w-full h-auto" />
+                    <img src={peashooter_high} className="w-full h-auto" />
                     <p className="italic">
                         Peashooter
                     </p>
@@ -514,7 +559,7 @@ def naive_convolve(image, kernel):
             </p>
 
             <div className="flex justify-center gap-4">
-                <img src={'src/features/proj2/assets/oraple.png'} className="w-full h-auto" />
+                <img src={oraple} className="w-full h-auto" />
             </div>
 
             <p>
@@ -522,7 +567,7 @@ def naive_convolve(image, kernel):
             </p>
 
             <div className="flex justify-center gap-4">
-                <img src={'src/features/proj2/assets/futball.png'} className="w-full h-auto" />
+                <img src={futball} className="w-full h-auto" />
             </div>
 
             <p>
@@ -530,7 +575,7 @@ def naive_convolve(image, kernel):
             </p>
 
             <div className="flex justify-center gap-4">
-                <img src={'src/features/proj2/assets/shoes.png'} className="w-full h-auto" />
+                <img src={shoes} className="w-full h-auto" />
             </div>
         </main>
     );
